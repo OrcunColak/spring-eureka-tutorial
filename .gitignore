@@ -1,0 +1,4 @@
+# Project exclude paths
+/spring-eureka-service1/target/
+/spring-eureka-service2/target/
+/spring-eureka-service-registry/target/

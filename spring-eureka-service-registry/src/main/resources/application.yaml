@@ -1,0 +1,22 @@
+spring:
+  application.name: service-registry
+  
+server:
+  #  By default, Eureka Server operates on port 8761
+  port: 8761
+  
+eureka:
+  client:
+    # When set to false, this configuration tells the Eureka Server not to register itself as a client with any other Eureka Server.
+    # In a standalone setup, this is typically set to false.
+    registerWithEureka: false
+    # This configuration tells the Eureka Server not to fetch the registry information from other Eureka Servers.
+    fetchRegistry: false
+#    serviceUrl:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+  instance:
+    # This line sets the hostname for the Eureka Server.
+    # In this case, it's set to "localhost," but in a production environment, you might specify the hostname or IP address as needed.
+    hostname: localhost
