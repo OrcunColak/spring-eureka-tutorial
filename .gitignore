@@ -2,3 +2,8 @@
 /spring-eureka-service1/target/
 /spring-eureka-service2/target/
 /spring-eureka-service-registry/target/
+/.idea/
+/spring-eureka-tutorial.iml
+/spring-eureka-service1/spring-eureka-service1.iml
+/spring-eureka-service2/spring-eureka-service2.iml
+/spring-eureka-service-registry/spring-eureka-service-registry.iml
